@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-31T18:45:53 COT" name="Suite" finished-at="2021-07-31T18:46:04 COT" duration-ms="11013">
+    <groups>
+      <group name="login">
+        <method signature="LoginTests.loginUserInvalidAndPassValid()[pri:0, instance:test.LoginTests@418e7838]" name="loginUserInvalidAndPassValid" class="test.LoginTests"/>
+        <method signature="LoginTests.loginUserValidAndPassInvalid()[pri:0, instance:test.LoginTests@418e7838]" name="loginUserValidAndPassInvalid" class="test.LoginTests"/>
+        <method signature="LoginTests.loginUserValidAndPassValid()[pri:0, instance:test.LoginTests@418e7838]" name="loginUserValidAndPassValid" class="test.LoginTests"/>
+        <method signature="LoginTests.loginUserInvalidAndPassValid()[pri:0, instance:test.LoginTests@2c767a52]" name="loginUserInvalidAndPassValid" class="test.LoginTests"/>
+        <method signature="LoginTests.loginUserValidAndPassInvalid()[pri:0, instance:test.LoginTests@2c767a52]" name="loginUserValidAndPassInvalid" class="test.LoginTests"/>
+        <method signature="LoginTests.loginUserValidAndPassValid()[pri:0, instance:test.LoginTests@2c767a52]" name="loginUserValidAndPassValid" class="test.LoginTests"/>
+      </group> <!-- login -->
+      <group name="flights">
+        <method signature="LoginTests.fillTheBlanks()[pri:0, instance:test.LoginTests@418e7838]" name="fillTheBlanks" class="test.LoginTests"/>
+        <method signature="LoginTests.searchNewFlight()[pri:0, instance:test.LoginTests@418e7838]" name="searchNewFlight" class="test.LoginTests"/>
+        <method signature="LoginTests.fillTheBlanks()[pri:0, instance:test.LoginTests@2c767a52]" name="fillTheBlanks" class="test.LoginTests"/>
+        <method signature="LoginTests.searchNewFlight()[pri:0, instance:test.LoginTests@2c767a52]" name="searchNewFlight" class="test.LoginTests"/>
+      </group> <!-- flights -->
+    </groups>
+    <test started-at="2021-07-31T18:45:53 COT" name="Test1" finished-at="2021-07-31T18:46:03 COT" duration-ms="10369">
+      <class name="test.LoginTests">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:45:53 COT" name="setUpDriver" finished-at="2021-07-31T18:45:56 COT" duration-ms="3058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="fillTheBlanks()[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:45:56 COT" name="fillTheBlanks" finished-at="2021-07-31T18:45:58 COT" duration-ms="2387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheBlanks -->
+        <test-method signature="loginUserInvalidAndPassValid()[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:45:58 COT" name="loginUserInvalidAndPassValid" finished-at="2021-07-31T18:45:59 COT" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserInvalidAndPassValid -->
+        <test-method signature="loginUserValidAndPassInvalid()[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:45:59 COT" name="loginUserValidAndPassInvalid" finished-at="2021-07-31T18:46:00 COT" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserValidAndPassInvalid -->
+        <test-method signature="loginUserValidAndPassValid()[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:46:00 COT" name="loginUserValidAndPassValid" finished-at="2021-07-31T18:46:01 COT" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserValidAndPassValid -->
+        <test-method signature="searchNewFlight()[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:46:01 COT" name="searchNewFlight" finished-at="2021-07-31T18:46:02 COT" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNewFlight -->
+        <test-method is-config="true" signature="destroidTest()[pri:0, instance:test.LoginTests@418e7838]" started-at="2021-07-31T18:46:02 COT" name="destroidTest" finished-at="2021-07-31T18:46:03 COT" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroidTest -->
+      </class> <!-- test.LoginTests -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-07-31T18:45:53 COT" name="Test2" finished-at="2021-07-31T18:46:04 COT" duration-ms="11013">
+      <class name="test.LoginTests">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:45:53 COT" name="setUpDriver" finished-at="2021-07-31T18:45:56 COT" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="fillTheBlanks()[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:45:56 COT" name="fillTheBlanks" finished-at="2021-07-31T18:45:59 COT" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheBlanks -->
+        <test-method signature="loginUserInvalidAndPassValid()[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:45:59 COT" name="loginUserInvalidAndPassValid" finished-at="2021-07-31T18:46:00 COT" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserInvalidAndPassValid -->
+        <test-method signature="loginUserValidAndPassInvalid()[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:46:00 COT" name="loginUserValidAndPassInvalid" finished-at="2021-07-31T18:46:00 COT" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserValidAndPassInvalid -->
+        <test-method signature="loginUserValidAndPassValid()[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:46:00 COT" name="loginUserValidAndPassValid" finished-at="2021-07-31T18:46:01 COT" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserValidAndPassValid -->
+        <test-method signature="searchNewFlight()[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:46:01 COT" name="searchNewFlight" finished-at="2021-07-31T18:46:03 COT" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNewFlight -->
+        <test-method is-config="true" signature="destroidTest()[pri:0, instance:test.LoginTests@2c767a52]" started-at="2021-07-31T18:46:03 COT" name="destroidTest" finished-at="2021-07-31T18:46:04 COT" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroidTest -->
+      </class> <!-- test.LoginTests -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
